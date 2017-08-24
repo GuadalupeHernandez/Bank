@@ -6,6 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
+Client.delete_all
 Client.create first_name: 'Guadalupe', last_name: 'Hernandez', middle_name: 'Lupita', client_numer:1
 Bank_account.create client: 1, account_number: '13455'
