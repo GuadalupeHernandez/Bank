@@ -8,4 +8,4 @@
 
 
 Client.create first_name: 'Guadalupe', last_name: 'Hernandez', middle_name: 'Lupita', client_numer:1
-Bank_account.create client: 1
+Bank_account.create client_numer: 1
