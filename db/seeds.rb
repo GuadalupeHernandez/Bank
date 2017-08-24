@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Client.delete_all
-Client.create first_name: 'Guadalupe', last_name: 'Hernandez', middle_name: 'Lupita', client_numer:1
-Bank_account.create client: 1, account_number: '13455'
+Client.create first_name: 'Guadalupe', last_name: 'Hernandez', middle_name: 'Lupita', client_numer: '4'
+Bank_account.create client: '4', account_number: '13455'
