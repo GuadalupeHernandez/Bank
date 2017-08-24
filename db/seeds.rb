@@ -8,4 +8,4 @@
 
 Client.delete_all
 Client.create first_name: 'Guadalupe', last_name: 'Hernandez', middle_name: 'Lupita', client_numer: '4'
-Bank_account.create client: '4', account_number: '13455'
+Bank_account.create  account_number: '13455'
